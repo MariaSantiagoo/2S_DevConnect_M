@@ -1,0 +1,52 @@
+/* Primeira forma */
+/* @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Trocchi&display=swap'); */
+
+/* Segunda forma */
+@font-face {
+    font-family: Trocchi;
+    src: url(../assets/fonts/Trocchi/Trocchi-Regular.ttf);
+
+}
+
+@font-face {
+    font-family: Lato;
+    src: url(../assets/fonts/Lato/Lato-Regular.ttf),
+        url(../assets/fonts/Lato/Lato-Bold.ttf);
+}
+
+:root {
+    --cor-cinza-claro: #E7E4F0;
+    --cor-cinza-claro1: #EFEAFF;
+    --cinza-mais-claro: #F5F2FF;
+    --cor-preto: #2d3040;
+    --cor-roxo: #49286b;
+    --cor-roxo1: #9E86B6;
+    --cor-roxo2: #49286B;
+    --cor-rosa: #DF57BC;
+    --cor-rosa2: #BA7CAC;
+
+    --borda: 1px solid var(--cor-roxo1);
+    --borda1: 1px solid var(--cor-rosa);
+    --borda-arredondada: 2px
+
+    --tamanho-fonte-lg: 20px;
+    --tamanho-fonte-md: 16px;
+    --tamanho-fonte-sm: 14px;
+}
+
+/* Seletor global */
+*{
+    padding: 0; /*espaço interno*/
+    margin: 0; /*espaço externo*/
+    box-sizing: border-box; 
+
+}
+
+body{
+    background-color: var(--cinza-claro);
+}
+h1{
+    position: absolute;/*altera a posição do elemento*/
+    z-index: -1; /*camada do elemento*/
+    opacity: 0; /*opacidade do elemento*/
+}
