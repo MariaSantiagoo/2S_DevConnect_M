@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Maria">
+    <meta name="description" content="Site da empresa DevConnect">
+
+    <title>Cadastro do usuário - DevConnect</title>
+
+    <link rel="shortcut icon" href="../assets/images/logo-devconnect-sm.svg" type="image/x-icon">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../styles/global.css">
+    <link rel="stylesheet" href="../styles/cadastro.css">
+
+</head>
+
+<body>
+    <h1>Tela de cadastro</h1>
+
+    <main>
+        <div>
+            <form class="estilizacao-form">
+                <img src="../assets/images/logo-devconnect-lg.svg" alt="">
+                <p id="texto-boas-vindas">Cadastre-se para comunidade exclusiva de desenvolvedores(as).</p>
+
+                <div class="formulario-campos">
+                    <label for="">Nome e sobrenome:</label>
+                    <input type="text">
+                </div>
+
+                <div class="formulario-campos">
+                    <label for="">Nome de usuário:</label>
+                    <input type="text">
+                </div>
+
+                <div class="formulario-campos">
+                    <label for="">E-mail:</label>
+                    <input type="text">
+                </div>
+
+                <div class="formulario-campos">
+                    <label for="">Senha:</label>
+                    <input type="password">
+                </div>
+
+                <div class="formulario-campos">
+                    <label for="campo-upload" id="botao-upload">Faça upload da sua imagem aqui...</label>
+                    <input type="file" id="campo-upload">
+                </div>
+                
+                <button type="submit" class="formulario-botao-rosa">Cadastrar-se</button>
+
+                <p id="texto-termos">Ao se cadastrar, você concorda com nossos Termos, Política de Dados e Política de Cookies.</p>
+
+            </form>
+
+            <section class="secao-login" class="estilizacao-form">
+                <p id="texto-login">Tem uma conta? <a href="../pages/index.html" id="link-login">Conecte-se</a></p>
+            </section>
+
+        </div>
+    </main>
+</body>
+
+</html>

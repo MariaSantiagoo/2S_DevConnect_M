@@ -1,0 +1,89 @@
+main>div {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+#texto-boas-vindas, #texto-termos{
+    font-size: var(--tamanho-fonte-md);
+    color: var(--cor-preto1);
+    font-weight: 16px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 2%;
+    
+
+}
+
+form > img{
+    width: 100%;
+}
+
+.estilizacao-form{
+width: 100%;
+max-width: 342px;
+background-color: var(--cor-cinza-claro1);
+border: var(--borda);
+border-radius: var(--borda-arredondada);
+}
+
+.formulario-campos {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 3px;
+}
+
+section {
+    width: 100%;
+    height: 60px;
+    max-width: 342px;
+    background-color: var(--cor-cinza-claro1);
+    border: var(--borda);
+    border-radius: var(--borda-arredondada);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formulario-botao-rosa {
+    width: 100%;
+}
+
+#link-login{
+    text-decoration: none;
+    color: var(--cor-rosa);
+    font-size: var(--tamanho-fonte-md);
+}
+
+#texto-login {
+    color: var(--cor-preto1);
+    font-size: var(--tamanho-fonte-md);
+}
+
+#campo-upload {
+    display: none;
+}
+
+#botao-upload{
+    display: inline-block;
+    background-color: var(--cinza-mais-claro);
+    width: 100%;
+    height: 35px;
+    text-align: center;
+    border: var(--borda1);
+    border-radius: var(--borda-arredondada);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -19,6 +19,7 @@
     --cor-cinza-claro1: #EFEAFF;
     --cinza-mais-claro: #F5F2FF;
     --cor-preto: #2d3040;
+    --cor-preto1: #2d3040c5;
     --cor-roxo: #49286b;
     --cor-roxo1: #9E86B6;
     --cor-roxo2: #49286B;
@@ -27,26 +28,58 @@
 
     --borda: 1px solid var(--cor-roxo1);
     --borda1: 1px solid var(--cor-rosa);
-    --borda-arredondada: 2px
-
+    --borda-arredondada: 3px;
     --tamanho-fonte-lg: 20px;
     --tamanho-fonte-md: 16px;
     --tamanho-fonte-sm: 14px;
 }
 
 /* Seletor global */
-*{
-    padding: 0; /*espaço interno*/
-    margin: 0; /*espaço externo*/
-    box-sizing: border-box; 
+* {
+    padding: 0;
+    /*espaço interno*/
+    margin: 0;
+    /*espaço externo*/
+    box-sizing: border-box;
 
 }
 
-body{
+body {
     background-color: var(--cinza-claro);
 }
-h1{
-    position: absolute;/*altera a posição do elemento*/
-    z-index: -1; /*camada do elemento*/
-    opacity: 0; /*opacidade do elemento*/
+
+h1 {
+    position: absolute;
+    /*altera a posição do elemento*/
+    z-index: -1;
+    /*camada do elemento*/
+    opacity: 0;
+    /*opacidade do elemento*/
+}
+
+.formulario-botao-rosa{
+    background-color: var(--cor-rosa);
+    border-radius: var(--borda-arredondada);
+    border: none;
+    height: 35px;
+
+    color: var(--cinza-mais-claro);
+    font-size: var(--tamanho-fonte-sm);
+
+}
+
+.formulario-campos > input{
+    border: var(--borda1);
+    height: 35px;
+    background-color: var(--cinza-mais-claro);
+
+    color: var(--cor-preto1);
+    font-size: var(--tamanho-fonte-sm);
+    border-radius: var(--borda-arredondada);
+}
+
+.formulario-campos > label {
+    font-size: var(--tamanho-fonte-sm);
+    color: var(--cor-preto1);
+    font-weight: 600;
 }

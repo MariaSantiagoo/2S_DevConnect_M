@@ -1,47 +1,90 @@
-main{
+main {
     background-color: var(--cor-cinza-mais-claro);
-    min-height: 100vh; /*minimo de altura da janela do dispositivo*/
+    min-height: 100vh;
+    /*minimo de altura da janela do dispositivo*/
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-main > div{
-    background-color: var(--cor-cinza-claro1);
-    width: 100%;
-    max-width: 342px;
-    /* height: 400px; */
+main>div {
+    /* background-color: var(--cor-rosa2); */
+    background-color: var(--cor-cinza-mais-claro);
+    width: 90%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-content: space-between; */
-    gap: 30px;
+    gap: 15px;
 }
 
-form{
-    /* background-color: var(--cor-roxo1); */
+form {
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 2%;
+
 }
 
-#secao-cadastro{
-    /* background-color: var(--cor-rosa); */
-}
-.estilo-formulario{
-
-background-color: var(--cor-cinza-claro1);
-border: var(--borda);
-width: 100%;
+#secao-cadastro {
+   height: 60px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 
-main > div > p{
-    background-color: gold;
+.estilo-formulario {
+    width: 100%;
+    max-width: 342px;
+    background-color: var(--cor-cinza-claro1);
+    border: var(--borda);
+    border-radius: var(--borda-arredondada);
 }
 
-#secao-instalacao{
-    background-color: bisque;
+.estilo-formulario > img {
+    width: 100%;
+}
+
+main>div>p {
+    color: var(--cor-preto1);
+    font-size: var(--tamanho-fonte-sm);
+}
+
+#secao-instalacao {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    justify-content: center;
     gap: 10px;
+}
+
+.formulario-campos {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 3px;
+
+}
+
+.formulario-botao-rosa{
+    width: 100%;
+}
+
+form > p{
+    text-transform: uppercase;
+    font-size: var(--tamanho-fonte-sm);
+    color: var(--cor-preto1);
+}
+
+form > a, #secao-cadastro > p > a{
+    color: var(--cor-rosa);
+    font-size: var(--tamanho-fonte-md);
+    text-decoration: none;
+}
+
+#secao-cadastro > p {
+    color: var(--cor-preto1);
+    font-size: var(--tamanho-fonte-md);
 }
