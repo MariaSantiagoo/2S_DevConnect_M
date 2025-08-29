@@ -37,11 +37,7 @@ form {
 }
 
 .estilo-formulario {
-    width: 100%;
     max-width: 342px;
-    background-color: var(--cor-cinza-claro1);
-    border: var(--borda);
-    border-radius: var(--borda-arredondada);
 }
 
 .estilo-formulario > img {

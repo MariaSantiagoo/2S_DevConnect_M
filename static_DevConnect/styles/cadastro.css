@@ -29,12 +29,8 @@ form > img{
     width: 100%;
 }
 
-.estilizacao-form{
-width: 100%;
+.estilo-formulario{
 max-width: 342px;
-background-color: var(--cor-cinza-claro1);
-border: var(--borda);
-border-radius: var(--borda-arredondada);
 }
 
 .formulario-campos {
@@ -71,19 +67,3 @@ section {
     font-size: var(--tamanho-fonte-md);
 }
 
-#campo-upload {
-    display: none;
-}
-
-#botao-upload{
-    display: inline-block;
-    background-color: var(--cinza-mais-claro);
-    width: 100%;
-    height: 35px;
-    text-align: center;
-    border: var(--borda1);
-    border-radius: var(--borda-arredondada);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
