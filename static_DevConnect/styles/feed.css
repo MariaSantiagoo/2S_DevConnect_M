@@ -11,7 +11,7 @@ align-items: center;
 }
 
 .container-flex-publi {
-    background-color: lightpink;
+    /* background-color: lightpink; */
     /* height: 700px; */
     width: 90%;
     max-width: 900px;
@@ -46,7 +46,7 @@ align-items: center;
     flex-direction: column;
     align-items: center;
     gap: 3px;
-
+    cursor: pointer;
 
 }
 
@@ -62,7 +62,12 @@ align-items: center;
 
 .formulario-botao-rosa {
     width: 133px;
+    cursor: pointer;
 
+}
+
+#botao-upload{
+    cursor: pointer;
 }
 
 #criar-publi{
@@ -106,12 +111,12 @@ gap: 10px;
 }
 
 #publicacoes{
-    background-color: hotpink;
+    /* background-color: hotpink; */
     width: 100%;
 }
 
 .card-publi{
-    background-color: deeppink;
+    /* background-color: deeppink; */
     width: 100%;
     height: 600px;
 }
@@ -134,6 +139,8 @@ gap: 10px;
 .card-publi>figure{
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
+    margin-top: 10px;
 }
 
 .imagem-publicacao{
@@ -184,5 +191,5 @@ gap: 10px;
     order: 3;
 
     margin-left: 10px;
-    
+    cursor: pointer;
 }
