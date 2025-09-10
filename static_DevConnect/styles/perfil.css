@@ -147,4 +147,9 @@ main {
     max-width: 320px;
 }
 
+.perfil>#seguindo-editar-perfil,
+#seguidores-sair {
+    width: 90px;
+}
+
 }
